@@ -131,21 +131,21 @@
                 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp  I    &kp  O  &kp  P   &kp LBKT &kp RBKT  &kp BSLH
                 &kp CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp  K    &kp  L  &kp SEMI &kp SQT           &kp RET
                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH    &kp RSHFT &kp UP   &kp ESC
-                &kp LCTRL &kp LGUI &kp LALT            &kp SPACE                          &kp RALT  &mo 2 &kp LEFT &kp DOWN &kp RIGHT
+                &kp LCTRL &kp LGUI &kp LALT            &kp SPACE                          &kp RALT  &mo 1 &kp LEFT &kp DOWN &kp RIGHT
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN C_MUTE>;
         };
 
-        dvorak_layer {
-        	bindings = <
-				&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp  N8   &kp  N9 &kp  N0  &kp LBKT &kp RBKT &kp BSPC 
-				&kp TAB  &kp SQT  &kp COMMA &kp DOT  &kp P  &kp Y  &kp F  &kp G  &kp C    &kp R  &kp L   &kp FSLH &kp EQUAL  &kp BSLH
-				&kp CLCK  &kp A  &kp O  &kp E  &kp U  &kp I  &kp D  &kp H  &kp T    &kp N  &kp S &kp MINUS           &kp RET
-				&kp LSHFT  &kp SEMI  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W &kp V &kp Z    &kp RSHFT &kp UP   &kp ESC
-				&kp LCTRL &kp LEFT_GUI &kp LALT            &kp SPACE                          &kp RALT  &mo 2 &kp LEFT &kp DOWN &kp RIGHT  
-			>;
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN C_MUTE>;
-		};
+        // dvorak_layer {
+        // 	bindings = <
+		// 		&kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp  N8   &kp  N9 &kp  N0  &kp LBKT &kp RBKT &kp BSPC 
+		// 		&kp TAB  &kp SQT  &kp COMMA &kp DOT  &kp P  &kp Y  &kp F  &kp G  &kp C    &kp R  &kp L   &kp FSLH &kp EQUAL  &kp BSLH
+		// 		&kp CLCK  &kp A  &kp O  &kp E  &kp U  &kp I  &kp D  &kp H  &kp T    &kp N  &kp S &kp MINUS           &kp RET
+		// 		&kp LSHFT  &kp SEMI  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W &kp V &kp Z    &kp RSHFT &kp UP   &kp ESC
+		// 		&kp LCTRL &kp LEFT_GUI &kp LALT            &kp SPACE                          &kp RALT  &mo 2 &kp LEFT &kp DOWN &kp RIGHT  
+		// 	>;
+		// 	sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN C_MUTE>;
+		// };
         raise {
             bindings = <
                 &studio_unlock &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12   &kp F1
