@@ -1,0 +1,27 @@
+#include <layouts/common/60percent/all1u.dtsi>
+#include <layouts/common/60percent/ansi.dtsi>
+#include <layouts/common/60percent/hhkb.dtsi>
+#include <layouts/common/60percent/iso.dtsi>
+#include <custom_bt60.dtsi>
+
+
+// Assigning suitable kscan and matrix transforms
+&layout_60_ansi {
+    transform = <&ansi_transform>;
+    kscan = <&ansi_kscan>;
+};
+
+&layout_60_iso {
+    transform = <&iso_transform>;
+    kscan = <&iso_kscan>;
+};
+
+&layout_60_all1u {
+    transform = <&default_transform>;
+    kscan = <&all_1u_kscan>;
+};
+
+&layout_60_hhkb {
+    transform = <&hhkb_transform>;
+    kscan = <&hhkb_kscan>;
+};
